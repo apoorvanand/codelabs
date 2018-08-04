@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "monaco-editor": "^0.13.1"
+  },
+  "name": "codelabs",
+  "version": "1.0.0",
+  "description": "Codelabs.space a place to code",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node_modules/.bin/http-server -c-1 ./ -p 8888",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monaco-editor"
+  ],
+  "author": "Apoorv Anand",
+  "license": "ISC"
+}
